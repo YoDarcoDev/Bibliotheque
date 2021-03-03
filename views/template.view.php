@@ -21,12 +21,12 @@
             <li class="nav-item">
                 <a class="nav-link" <?php if ($titre === "Accueil") { ?>
                     style="color:red;"
-                    <?php } ?> href="index.php">Accueil</a>
+                    <?php } ?> href="<?= URL ?>accueil">Accueil</a>
             </li>
             <li class="nav-item">
                 <a class="nav-link" <?php if ($titre === "Liste des livres") { ?>
                     style="color:yellow;"
-                    <?php } ?> href="livres.php">Livres</a>
+                    <?php } ?> href="<?= URL ?>livres">Livres</a>
             </li>
         </ul>
     </div>
